@@ -1,5 +1,5 @@
 # Linux CTF1
-step1: ssh -p2200 lab@120.114.62.89
+step1: ssh -p2200 lab@120.114.62.89;
 step2: yes
 step3: password: lab
 step4: ls 找到flag(文件檔)
