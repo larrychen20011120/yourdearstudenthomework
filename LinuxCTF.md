@@ -25,9 +25,21 @@ step5: cat .hidden
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/Li2.PNG)
 
 # Linux CTF3
+step1: cat hex.txt
 
+step2: 發現是16進位
+
+step3: xxd -r -p hex.txt  (16進位轉字串)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/Li3.PNG)
 # Linux CTF4
+step1: cat base64.txt
 
+step2: 發現是base64編碼
+
+step3: base61 -d base64.txt  (base64解碼)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L4.PNG)
 # Linux CTF5
 
 # Linux CTF6
