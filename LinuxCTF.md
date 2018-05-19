@@ -32,6 +32,7 @@ step2: 發現是16進位
 step3: xxd -r -p hex.txt  (16進位轉字串)
 
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/Li3.PNG)
+
 # Linux CTF4
 step1: cat base64.txt
 
@@ -40,6 +41,7 @@ step2: 發現是base64編碼
 step3: base61 -d base64.txt  (base64解碼)
 
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L4.PNG)
+
 # Linux CTF5
 
 # Linux CTF6
@@ -48,12 +50,14 @@ step1: ps -aux (列出服務)
 step2: /bin/flag (執行他)
 
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L6.PNG)
+
 # Linux CTF7
 step1: netstat -ano (列出網路服務)
 
 step2: curl http://127.0.0.1/ (80 Port有你要的答案 -> 取得http://127.0.0.1/的網頁內容)
 
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L7.PNG)
+
 # Linux CTF8
 step1: cd tmp/
 
@@ -68,7 +72,27 @@ step5: tar zxvf ForYou.tar.gz  (解壓縮)
 step6: file ForYou (文件檔)
 
 step7: cat ForYou
+
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L8.PNG)
+
 # Linux CTF9
+step1: wget http://120.114.62.39/TobeExe
+
+step2: ls
+
+step3: file TobeExe
+
+step4: strings TobeExe (找到BreakAll開頭)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L9.PNG)
 
 # Linux CTF10
+step1: wget http://120.114.62.39/reverse
+
+step2: ls
+
+step3: file reverse
+
+step4: strings reverse (找到BreakAll開頭)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L10.PNG)
