@@ -49,9 +49,26 @@ step2: /bin/flag (執行他)
 
 ![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L6.PNG)
 # Linux CTF7
+step1: netstat -ano (列出網路服務)
 
+step2: curl http://127.0.0.1/ (80 Port有你要的答案 -> 取得http://127.0.0.1/的網頁內容)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L7.PNG)
 # Linux CTF8
+step1: cd tmp/
 
+step2: mkdir 610145
+
+step3: cd 610145/
+
+step4: wget http://120.114.62.39/ForYou.tar.gz (下載)
+
+step5: tar zxvf ForYou.tar.gz  (解壓縮)
+
+step6: file ForYou (文件檔)
+
+step7: cat ForYou
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L8.PNG)
 # Linux CTF9
 
 # Linux CTF10
