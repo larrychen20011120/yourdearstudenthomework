@@ -43,7 +43,11 @@ step3: base61 -d base64.txt  (base64解碼)
 # Linux CTF5
 
 # Linux CTF6
+step1: ps -aux (列出服務)
 
+step2: /bin/flag (執行他)
+
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/L6.PNG)
 # Linux CTF7
 
 # Linux CTF8
