@@ -25,6 +25,8 @@ int main()
 
 gcc –S XXX.i  –o XXX.s
 
+![組語](picture/87.png)
+
 產生的組合語言(assembly)
 
 預設是AT&T組合語言格式
