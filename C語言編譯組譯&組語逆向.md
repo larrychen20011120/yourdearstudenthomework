@@ -122,3 +122,4 @@ gcc  hello.o –o hello.jpg
 ```
 
 ==> "附檔名並沒有影響"
+
