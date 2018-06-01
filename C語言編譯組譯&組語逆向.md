@@ -15,15 +15,14 @@ int main()
 
 ```
  gcc -E hello.c -o hello.i
-```
-``` 
+
  file hello.i
 ```
  ==> C source, ASCII text
  
 # 編譯階段:產生組語:
 
-gcc –S XXX.i  –o XXX.s
+gcc –S hello.i  –o hello.s
 
 ![組語](picture/87.PNG)
 
@@ -73,3 +72,53 @@ gcc -S -masm=intel XXXXX.c -o XXXXX_intel.s
 要去掉一堆註解:請加上參數-fno-asynchronous-unwind-tables
 
 gcc -S -masm=intel XXXXX.c -o XXXXX_intel_OK.s -fno-asynchronous-unwind-tables
+
+# 編譯過程:
+```
+將組合語言程式碼轉成機器可以執行的指令(instructions)
+
+每一個組語語句都對應一機器指令。
+
+組譯器的組譯過程相對於編譯器來講比較簡單
+
+沒有複雜的語法，也沒有語意，也不需要做指令最佳化，只是根據組語指令和機器指令的對照表一一翻譯就可以
+```
+```
+gcc –c hello.s –o hello.o
+
+file hello.o
+```
+==> hello.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+
+==> strings hello.o
+
+```
+dlrow olleH
+GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
+hello.c
+main
+puts
+.symtab
+.strtab
+.shstrtab
+.rela.text
+.data
+.bss
+.rodata
+.comment
+.note.GNU-stack
+.rela.eh_frame
+```
+
+使用xxd看看object file的內容==>xxd hello.o
+
+![](picture/98.PNG)
+
+# 連結過程:
+```
+gcc  hello.o –o hello
+gcc  hello.o –o hello.exe
+gcc  hello.o –o hello.jpg
+```
+
+==> "附檔名並沒有影響"
