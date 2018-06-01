@@ -25,7 +25,7 @@ int main()
 
 gcc –S XXX.i  –o XXX.s
 
-![組語](picture/87.png)
+![組語](picture/87.PNG)
 
 產生的組合語言(assembly)
 
