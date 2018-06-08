@@ -124,4 +124,4 @@ gcc  hello.o –o hello.jpg
 ==> "附檔名並沒有影響"
 
 # 所有過程:
-![](picture/c#language.PNG)
+![](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/picture/c%23language.PNG)
