@@ -9,7 +9,7 @@ step4: ls 找到flag(文件檔)
 
 step5: cat flag
 
-![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/a.PNG)
+![yourdearstudenthomework](https://github.com/larrychen20011120/yourdearstudenthomework/blob/master/Linux1.PNG)
 
 # Linux CTF2
 step1: pwd (找到自己的絕對路徑)
