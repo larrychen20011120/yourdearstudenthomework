@@ -124,4 +124,4 @@ gcc  hello.o –o hello.jpg
 ==> "附檔名並沒有影響"
 
 # 所有過程:
-![](/picture/c#language.PNG)
+![](picture/c#language.PNG)
