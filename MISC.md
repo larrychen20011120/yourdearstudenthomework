@@ -8,4 +8,4 @@ step3:  按照他的步驟
 
 step4:  search 有CTF的字串
 
-![]()
+![](/picture/ABC.PNG)
