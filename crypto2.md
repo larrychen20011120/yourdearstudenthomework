@@ -13,6 +13,10 @@ https://github.com/MyDearGreatTeacher/NO1HighSchool/blob/master/ref/crypto2.md
 
 ![yourdearstudenthomework](/picture/c202.PNG)
 
+# cropto202 -a
+
+![](/picture/crop-a.PNG)
+
 # crypto205
 
 利用 https://hashkiller.co.uk/md5-decrypter.aspx
