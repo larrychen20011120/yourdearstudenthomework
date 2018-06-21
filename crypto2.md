@@ -1,4 +1,9 @@
 # crypto201
+```
+step1: 把所給的值帶入 decrypted = (encrypted) ^ d mod N 公式中
+step2: 用python計算
+```
+![](/picture/crop1.PNG)
 
 # crypto202
 
